@@ -46,13 +46,37 @@ aside{
     padding: 20px 0px 10px 0px;
 }
 
-#headerArticle{
-    float: left;
+#headerArticle1{
+    display: inline-block;
     font-size: 18px;
     background: #ebebeb;
     color: #777;
-    margin: 10px 20px 10px 20px;
-    padding: 20px;
+    margin: 10px -5px 0px 0px;
+    padding: 20px 0px 20px 0px;
+    width: 205px;
+    text-align: right;
+    }
+
+#headerArticle2{
+    display: inline-block;
+    font-size: 18px;
+    background: #ebebeb;
+    color: #777;
+    margin: 10px -5px -5px 0px;
+    padding: 20px 0px 20px 0px;
+    width: 30px;
+    text-align: center;
+    }
+
+#headerArticle3{
+    display: inline-block;
+    font-size: 18px;
+    background: #ebebeb;
+    color: #777;
+    margin: 10px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+    width: 200px;
+    text-align: left;
     }
 
 p{
